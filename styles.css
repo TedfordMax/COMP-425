@@ -1,0 +1,35 @@
+h1{
+  color: red;
+}
+
+span{
+  font-style: italic;
+}
+
+h1, h2{
+  font-size: : 64px;
+  color: green;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+h3{
+  text-indent: 200px;
+}
+#nutrition tr {
+    color: green;
+}
+#nutrition {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#nutrition td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#ingredients tr {
+  width: 200px;
+}

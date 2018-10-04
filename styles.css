@@ -6,7 +6,7 @@ span{
   font-style: italic;
 }
 
-h1, h2{
+h1 {
   font-size: : 64px;
   color: green;
   text-decoration: underline;
@@ -16,6 +16,7 @@ h1, h2{
 h3{
   text-indent: 200px;
 }
+
 #nutrition tr {
     color: green;
 }
@@ -30,6 +31,21 @@ h3{
     padding: 8px;
 }
 
-#ingredients tr {
-  width: 200px;
+
+#ingredients, tr, td {
+    border: 2px solid #ddd;
+    padding: 5px;
+  }
+
+td:hover {
+  opacity: .5:
+}
+
+img {
+  max-width: 200px
+
+}
+
+img:hover{
+  transform: scale(1.5);
 }

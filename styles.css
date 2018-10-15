@@ -7,7 +7,7 @@ span{
 }
 
 h1 {
-  font-size: : 64px;
+  font-size: 64px;
   color: green;
   text-decoration: underline;
   text-transform: uppercase;
@@ -38,12 +38,11 @@ h3{
   }
 
 td:hover {
-  opacity: .5:
+  opacity: .5
 }
 
 img {
   max-width: 200px
-
 }
 
 img:hover{

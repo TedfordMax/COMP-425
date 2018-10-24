@@ -1,0 +1,20 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+p
+{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: maroon;
+  color: maroon;
+  padding-top: 20px;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 5px;
+  border: 1px black;
+  background-image: linear-gradient(to bottom right, transparent, rgba(0,0,0.2,0.2) 30%, rgba(0,0,0,0));
+  box-shadow: inset 4px 4px white, inset -5px -5px black, 1px 1px black;
+}

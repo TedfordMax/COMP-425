@@ -1,0 +1,28 @@
+.navContainer
+{
+  display: flex;
+  flex: 1;
+  background-color: black;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+a{
+  border: 1px solid black;
+  color: yellow;
+
+}
+span:hover
+{
+ background-color: blue;
+}
+.photoContainer
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+img{
+max-height: 20px;
+max-width: 20px;
+}

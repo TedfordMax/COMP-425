@@ -1,0 +1,103 @@
+.navContainer
+{
+display: flex;
+flex: 1;
+background-color: navy;
+justify-content: space-evenly;
+align-items: center;
+margin: 1px;
+color: orange
+}
+
+a{
+color: orange;
+justify-content: space-evenly;
+align-items: center;
+}
+.main
+{
+display: flex;
+flex: 1;
+}
+  .leftContainer
+{
+display: flex;
+flex: 1;
+flex-direction: column;
+}
+.photoContainer
+{
+display: flex;
+flex-direction: row;
+overflow: hidden;
+}
+.Pic3{
+overflow: hidden;
+margin-bottom: -200px;
+}
+
+img{
+max-height: 250px;
+max-width: 500px;
+border: 2px solid orange;
+}
+.postExcerptContainer
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center
+}
+
+.rightContainer
+{
+display: flex;
+flex: 1;
+flex-direction: column;
+border: 2px solid orange;
+background-color: navy;
+text-align: center;
+justify-content: space-around;
+}
+.contactForm
+{
+display: flex;
+flex: 1;
+justify-content: flex-start;
+flex-wrap: wrap;
+}
+.footer {
+padding: 1em;
+display: flex;
+flex: 1;
+background-color: blue;
+color: white;
+margin-top: 200px;
+}
+div > .Beginner
+{
+border: 2px solid black;
+color: green;
+overflow: hidden;
+padding: 5px;
+margin: 5px;
+}
+div > .Intermediate
+{
+border: 2px solid black;
+color: blue;
+margin: 5px;
+padding: 5px;
+}
+div > .Expert
+{
+border: 2px solid black;
+padding: 5px;
+margin: 5px;
+font-weight: bold;
+}
+li
+{
+font-size: 18pt;
+color: orange;
+}
